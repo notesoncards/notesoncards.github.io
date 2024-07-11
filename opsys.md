@@ -8,7 +8,6 @@ title: "The Operating System"
 Goes here
 
 <pre class="mermaid">
-flowchart TD
 graph TD;
     A-->B;
     A-->C;
