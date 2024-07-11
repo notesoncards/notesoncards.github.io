@@ -8,7 +8,7 @@ title: "The Operating System"
 Goes here
 
 <pre class="mermaid">
-graph TD;
+graph TD
     A-->B;
     A-->C;
     B-->D;
