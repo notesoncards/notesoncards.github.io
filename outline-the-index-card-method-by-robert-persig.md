@@ -1,4 +1,5 @@
 ---
+layout: default
 created: 2024-07-13T11:02
 updated: 2024-07-13T11:05
 ---

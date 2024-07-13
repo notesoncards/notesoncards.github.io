@@ -6,6 +6,7 @@ aliases:
 status: new
 zkid: 2024070723515453
 noteType: ProductNote
+layout: default
 tags:
   - products
 created: 2024-07-07T23:51

@@ -1,5 +1,6 @@
 ---
 title: "(Outline:) Screenwriting: A Practical Approach, by David Lynch"
+layout: default
 created: 2024-07-13T11:41
 updated: 2024-07-13T11:43
 ---
