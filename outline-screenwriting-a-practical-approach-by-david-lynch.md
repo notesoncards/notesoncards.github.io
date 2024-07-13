@@ -41,8 +41,10 @@ This structured approach makes the screenwriting process more manageable and hel
 
 > Screenwriting, while not overly difficult, requires a systematic approach to ensure the successful translation of an idea into a well-structured, compelling screenplay. The three-by-five card method described in the video offers a practical and effective way for aspiring screenwriters to develop their craft and bring their creative visions to life.
 
+
+<pre>
 ---
-
 Created: {{ page.created }}
-
 Updated: {{ page.updated }}
+---
+</pre>
