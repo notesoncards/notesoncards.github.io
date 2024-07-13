@@ -8,7 +8,7 @@ updated: 2024-07-13T11:05
 
 ## Overview
 
-The Index Card Method is a technique developed by Robert Persig, widely known for his philosophical work "Zen and the Art of Motorcycle Maintenance." It is a structured approach to problem-solving and organizing thoughts using index cards.
+The Index Card Method is a technique developed by **[Robert Persig](https://en.wikipedia.org/wiki/Robert_M._Pirsig)**, widely known for his philosophical work _[Zen and the Art of Motorcycle Maintenance](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance)_. It is a structured approach to problem-solving and organizing thoughts using index cards.
 
 ## Steps of the Index Card Method
 
@@ -111,3 +111,11 @@ The Index Card Method is a technique developed by Robert Persig, widely known fo
 - Organize tasks, deliverables, and dependencies.
 - Plan and track project milestones or phases.
 - Coordinate activities and resources within a team.
+
+
+```
+---
+created: {{ page.created }}
+updated: {{ page.updated }}
+---
+```
