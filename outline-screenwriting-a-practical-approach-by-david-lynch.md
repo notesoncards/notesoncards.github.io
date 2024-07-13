@@ -44,4 +44,5 @@ This structured approach makes the screenwriting process more manageable and hel
 ---
 
 Created: {{ page.created }}
+
 Updated: {{ page.updated }}

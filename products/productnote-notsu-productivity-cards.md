@@ -31,4 +31,5 @@ These came first and are WAY awesome and THICCK!
 ---
 
 Created: {{ page.created }}
+
 Updated: {{ page.updated }}
