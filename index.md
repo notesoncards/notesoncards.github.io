@@ -3,4 +3,4 @@
 The index card.
 
 * [The Operating System](opsys)
-* [The Index Card Method by Robert Persig](outline-the-index-card-method-by-robert-persig)
+* [The Index Card Method by Robert Persig](outline-the-index-card-method-by-robert-persig.md)
