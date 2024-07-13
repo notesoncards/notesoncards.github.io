@@ -23,4 +23,4 @@ The index card.
 
 ## Products
 
-[Notsu Productivity Cards](products/productnote-notsu-productivity-cards)
+[Notsu Productivity Cards](products/productnote-notsu-productivity-cards/)
