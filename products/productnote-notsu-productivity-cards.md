@@ -28,9 +28,9 @@ Notsu Brand: $23.97
 These came first and are WAY awesome and THICCK!
 
 
-<pre>
+```
 ---
 Created: {{ page.created }}
 Updated: {{ page.updated }}
 ---
-</pre>
+```
