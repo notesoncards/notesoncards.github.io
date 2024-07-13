@@ -22,7 +22,7 @@ Notsu Brand: $23.97
 - [Weekly Plan Scored Note Cards (Pack of 50)](https://notsubrand.com/products/weekly-plan-scored-note-cards-pack-of-50) × 1 = $7.99
 - [To-Do List Cards (50 Pack)](https://notsubrand.com/products/to-do-list-scored-note-cards-pack-of-50) × 1 = $7.99 
 
-<img src="images/Notsu_TodoCards.jpeg" width="500" />
+<img src="../images/Notsu_TodoCards.jpeg" width="500" />
 
 ## Weekly Plan Cards
 
