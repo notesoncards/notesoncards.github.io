@@ -4,7 +4,7 @@ created: 2024-07-13T11:41
 updated: 2024-07-13T11:43
 ---
 
-# {{ page.title }}
+# (Outline:) Screenwriting: A Practical Approach, by David Lynch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yngWNmouhP0?si=8yGy0rTMIkwGSmae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -41,3 +41,7 @@ This structured approach makes the screenwriting process more manageable and hel
 
 > Screenwriting, while not overly difficult, requires a systematic approach to ensure the successful translation of an idea into a well-structured, compelling screenplay. The three-by-five card method described in the video offers a practical and effective way for aspiring screenwriters to develop their craft and bring their creative visions to life.
 
+---
+
+Created: {{ page.created }}
+Updated: {{ page.updated }}
