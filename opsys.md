@@ -1,3 +1,9 @@
+---
+layout: default
+created: 2024-07-13T20:27
+updated: 2024-07-13T20:28
+---
+
 # The Operating System
 
 Goes here

@@ -1,0 +1,120 @@
+{
+  "name": "Web Publishing: Joplin Notes to Github",
+  "description": "This job will convert a (Joplin) Blog Post Markdown file into HTML, then merge in YAML metadata",
+  "baseContentType": "blogpost",
+  "projectSlug": "",
+  "jobSlug": "48814ae90f2a4e55abfecba819a4f060",
+  "contentCollectionCount": 4,
+  "baseDirectory": "C:\\writing-projects\\zf-masstransfer-website\\projects\\public-website\\text_publish",
+  "contentJobs": [
+    {
+      "title": "1. Website Pages",
+      "jobType": "markdown",
+      "jobOperation": "readfiles",
+      "walkDirectories": "true",
+      "inputDirectory": "C:\\Notes-System\\2.AREAS\\Platforms\\Masstransfer\\Website\\Website - Current\\Pages",
+      "clearContentItemsOnCompletion": "false",
+      "contentCollectionSlot": 1,
+      "extensionElementMappings": [
+        {
+          "Create": {
+            "Layout": "layouts/page.njk",
+            "tags": "pages"
+          }
+        }
+      ]
+    },
+    {
+      "title": "2. Context Tag Parser (Pages)",
+      "contentCollectionSlot": 1,
+      "jobType": "metadata",
+      "jobOperation": "parse-content-tags",
+      "clearContentItemsOnCompletion": "false",
+      "extensionElementMappings": [
+        {
+          "Metadata": {
+            "Slug": "slug"
+          },
+          "Copy": {
+            "date": "post_date"
+          }
+        }
+      ]
+    },
+    {
+      "title": "3. Strip Html Comments (Pages)",
+      "contentCollectionSlot": 1,
+      "jobType": "contentcollection",
+      "jobOperation": "striphtmlcomments",
+      "clearContentItemsOnCompletion": "false"
+    },
+    {
+      "title": "4. Website Posts",
+      "jobType": "markdown",
+      "jobOperation": "readfiles",
+      "walkDirectories": "true",
+      "inputDirectory": "C:\\Notes-System\\2.AREAS\\Platforms\\Masstransfer\\Website\\Website - Current\\Posts",
+      "clearContentItemsOnCompletion": "false",
+      "contentType": "posts",
+      "contentCollectionSlot": 2,
+      "extensionElementMappings": [
+        {
+          "Create": {
+            "Layout": "layouts/post.njk",
+            "tags": "posts"
+          }
+        }
+      ]
+    },
+    {
+      "title": "5. Context Tag Parser (Blog Posts)",
+      "contentCollectionSlot": 2,
+      "jobType": "metadata",
+      "jobOperation": "parse-content-tags",
+      "clearContentItemsOnCompletion": "false",
+      "extensionElementMappings": [
+        {
+          "Metadata": {
+            "Title": "safeTitle",
+            "Slug": "slug"
+          },
+          "Copy": {
+            "date": "post_date"
+          }
+        }
+      ]
+    },
+    {
+      "title": "6. Strip Html Comments (Blog Posts)",
+      "contentCollectionSlot": 2,
+      "jobType": "contentcollection",
+      "jobOperation": "striphtmlcomments",
+      "clearContentItemsOnCompletion": "false"
+    },
+    {
+      "title": "7. Write Yaml+Markdown metadata files (Pages)",
+      "jobType": "markdown",
+      "jobOperation": "write-yaml+md",
+      "elementsToWrite": "title,slug,entityId,contentType,category,date,post_date,post_modified,post_type,status,updated_joplin,Layout,tags,hasMermaid,sitemapChangefreq,sitemapPriority,permalink",
+      "inputDirectory": "{BaseDirectory}\\pages\\",
+      "contentCollectionSlot": 1,
+      "clearContentItemsOnCompletion": "false"
+    },
+    {
+      "title": "8. Write Yaml+Markdown metadata files (Posts)",
+      "jobType": "markdown",
+      "jobOperation": "write-yaml+md",
+      "elementsToWrite": "title,slug,entityId,contentType,category,date,post_date,post_modified,post_type,status,updated_joplin,Layout,tags,hasMermaid,sitemapChangefreq,sitemapPriority,mentionedBand,audioFile",
+      "inputDirectory": "{BaseDirectory}\\posts\\",
+      "contentCollectionSlot": 2,
+      "clearContentItemsOnCompletion": "false"
+    }
+//    {
+//      "title": "9. Execute CMD",
+//      "jobType": "file",
+//      "jobOperation": "runcmd",
+//      "commandText": "cd C:\\writing-projects\\zf-sonixcursions-com\\projects\\public-website\\text_publish && npx @11ty/eleventy",
+//      "clearContentItemsOnCompletion": "false"
+//    }
+  ]
+}
