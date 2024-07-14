@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 created: 2024-07-13T11:02
 updated: 2024-07-13T11:05
 ---
@@ -113,10 +113,3 @@ The Index Card Method is a technique developed by **[Robert Persig](https://en.w
 - Plan and track project milestones or phases.
 - Coordinate activities and resources within a team.
 
-
-```
----
-created: {{ page.created }}
-updated: {{ page.updated }}
----
-```

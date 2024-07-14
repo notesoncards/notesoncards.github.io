@@ -6,10 +6,11 @@ aliases:
 status: new
 zkid: 2024070723515453
 noteType: ProductNote
-layout: default
+layout: page
 permalink: /products/productnote-notsu-productivity-cards/
 tags:
   - products
+  - productivity
 created: 2024-07-07T23:51
 updated: 2024-07-09T06:41
 ---
@@ -30,10 +31,3 @@ Notsu Brand: $23.97
 
 These came first and are WAY awesome and THICCK!
 
-
-```
----
-created: {{ page.created }}
-updated: {{ page.updated }}
----
-```

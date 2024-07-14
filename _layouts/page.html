@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{{ content }}
+
+
+<hr />
+
+<strong>Created:</strong> {{ page.created }}<br />
+<strong>Updated:</strong> {{ page.updated }}<br />
+
+{% if page.tags %}
+<strong>Tags:</strong> 
+{% for tag in page.tags %}
+  {% assign tag_slug = tag | slugify: "raw" %}
+    {{ tag }}
+{% endfor %}
+{% endif %}
