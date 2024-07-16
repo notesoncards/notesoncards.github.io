@@ -61,7 +61,8 @@ updated: 2024-07-13T11:43
   margin-top: 0px;
   margin-left: 10px;
   margin-right: 10px;
-  line-height: 1.60em;
+  line-height: 1.65em;
+  font-size: 11pt;
 }
 
 .index-card {
@@ -87,9 +88,7 @@ updated: 2024-07-13T11:43
       <div class="card-text">
         <h3><a href="opsys">&nbsp;The Operating System</a></h3>
         <p><em>Jul 13, 2024 11:41 am - by Ryan</em></p>
-        <p>Another thing I want to do with index cards is to break down my work topics into Cards so that when I am in meetings I can grab the card and discuss the topic. Or conversely, when I am in a meeting I can create a new card about a topic that come up.</p>
-        <br />
-        <p><strong><a href="opsys">Read More...</a></strong></p>
+        <p>Another thing I want to do with index cards is to break down my work topics into Cards so that when I am in meetings I can grab the card and discuss the topic. Or conversely, when I am in a meeting I can create a new card about a topic that come up... (<strong><a href="opsys">Read More</a></strong>)</p>
       </div>
     </div>
     <div class="flip-card-back">
@@ -107,9 +106,26 @@ updated: 2024-07-13T11:43
       <div class="card-text">
         <h3>&nbsp;Welcome to Jekyll</h3>
         <p><em>Jul 13, 2024 17:59 pm - by Ryan</em></p>
-        <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`...</p>
-        <br />
-        <p><strong><a href="/notes/2024/07/13/welcome-to-jekyll.html">Read More...</a></strong></p>
+        <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>... (<strong><a href="/notes/2024/07/13/welcome-to-jekyll.html">Read More</a></strong>)</p>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <pre>
+      </pre>
+    </div>
+  </div>
+</div>
+
+<br />
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front index-card">
+      <div class="card-text">
+        <h3>&nbsp;An Example Note with Image</h3>
+        <p><em>Jul 13, 2024 17:59 pm - by Ryan</em></p>
+        <img src="/images/3-Field_Cover-Bandai.jpg" width="300" align="left" style="padding-right: 5px;" />
+        <p>This is an example of a Card that has an image before it, maybe that comes from the Note itself... (<strong><a href="/notes/2024/07/13/welcome-to-jekyll.html">Read More)</a></strong></p>
       </div>
     </div>
     <div class="flip-card-back">
