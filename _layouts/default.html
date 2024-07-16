@@ -40,18 +40,16 @@
 
         <aside id="sidebar">
 
-          <img src="/images/index_card_NotesOnCards.png" width="200" align="center" style="border: 1px solid black;" />
-
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="button">
-              <small>Download</small>
-              .zip file
-            </a>
-            <a href="{{ site.github.tar_url }}" class="button">
-              <small>Download</small>
-              .tar.gz file
-            </a>
-          {% endif %}
+          <h2 id="foundations">Foundations</h2>
+          <ul>
+            <li><a href="pages/outline-the-index-card-method-by-robert-persig">The Index Card Method by Robert Persig</a></li>
+            <li><a href="pages/outline-screenwriting-a-practical-approach-by-david-lynch">Screenwriting: A Practical Approach, by David Lynch</a></li>
+          </ul>
+          
+          <h2 id="collected-links">Collected Links</h2>
+          <ul>
+            <li><a href="https://flickr.com/photos/hawkexpress/albums/72157594200490122/with/189972899">Pile of Index Cards</a></li>
+          </ul>
 
           {% if site.github.is_project_page %}
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>

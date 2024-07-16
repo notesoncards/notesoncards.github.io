@@ -1,10 +1,14 @@
 ---
 layout: page
+permalink: /pages/outline-the-index-card-method-by-robert-persig/
+tags:
+- index-cards
+- writing
 created: 2024-07-13T11:02
 updated: 2024-07-13T11:05
 ---
 
-# (Outline:) The Index Card Method by Robert Persig
+# Outline: The Index Card Method, by Robert Persig
 
 
 ## Overview
@@ -15,7 +19,7 @@ The Index Card Method is a technique developed by **[Robert Persig](https://en.w
 
 ### Step 1: Collect Index Cards
 
-- Gather a sufficient number of index cards.
+- **<mark>Gather a sufficient number of index cards.</mark>**
 - Ensure they are blank on one side to allow for writing.
 
 ### Step 2: Define the Main Goal

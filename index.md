@@ -16,8 +16,8 @@ The index card.
 
 ## Foundations
 
-* [The Index Card Method by Robert Persig](outline-the-index-card-method-by-robert-persig)
-* [Screenwriting: A Practical Approach, by David Lynch](outline-screenwriting-a-practical-approach-by-david-lynch)
+* [The Index Card Method by Robert Persig](pages/outline-the-index-card-method-by-robert-persig)
+* [Screenwriting: A Practical Approach, by David Lynch](pages/outline-screenwriting-a-practical-approach-by-david-lynch)
 
 
 ## Products

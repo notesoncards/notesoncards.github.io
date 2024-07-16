@@ -1,11 +1,15 @@
 ---
-title: "(Outline:) Screenwriting: A Practical Approach, by David Lynch"
+title: "Screenwriting: A Practical Approach, by David Lynch"
+permalink: /pages/outline-screenwriting-a-practical-approach-by-david-lynch/
 layout: page
+tags:
+- index-cards
+- screenwriting
 created: 2024-07-13T11:41
 updated: 2024-07-13T11:43
 ---
 
-# (Outline:) Screenwriting: A Practical Approach, by David Lynch
+# Screenwriting: A Practical Approach, by David Lynch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yngWNmouhP0?si=8yGy0rTMIkwGSmae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -22,7 +26,7 @@ updated: 2024-07-13T11:43
 
 The speaker met Frank Daniels at the American Film Institute, who taught a practical approach to screenwriting.
 
-This method involves using **a pack of three-by-five index cards**:
+This method involves **<mark>gathering a set of blank three-by-five index cards</mark>**:
 
 1. On each card, the writer writes the heading or title of a scene.
 2. Once the writer has 70 such scene cards, they have the basic structure of a feature-length screenplay.

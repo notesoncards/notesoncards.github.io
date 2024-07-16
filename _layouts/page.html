@@ -7,8 +7,8 @@ layout: default
 
 <hr />
 
-<strong>Created:</strong> {{ page.created }}<br />
-<strong>Updated:</strong> {{ page.updated }}<br />
+<strong>Created:</strong> {{ page.created | date: "%b %d, %Y %H:%M %P" }}<br />
+<strong>Updated:</strong> {{ page.updated | date: "%b %d, %Y %H:%M %P" }}<br />
 
 {% if page.tags %}
 <strong>Tags:</strong> 
