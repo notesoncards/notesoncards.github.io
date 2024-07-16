@@ -67,7 +67,7 @@ updated: 2024-07-13T11:43
 .index-card {
   background-image:
     linear-gradient(180deg, white 3rem, #F0A4A4 calc(3rem), #F0A4A4 calc(3rem + 2px), transparent 1px),
-    repeating-linear-gradient(0deg, transparent, transparent 1.5rem, #DDD 1px, #DDD calc(1.5rem + 1px));
+    repeating-linear-gradient(0deg, transparent, transparent 1.5rem, #add8e6  1px, #add8e6  calc(1.5rem + 1px));
   /*box-shadow: 1px 1px 3px rgba(0,0,0,.25);
   height: 14rem;
   width: 400px;
@@ -85,26 +85,35 @@ updated: 2024-07-13T11:43
   <div class="flip-card-inner">
     <div class="flip-card-front index-card">
       <div class="card-text">
-        <h3>&nbsp;The Operating System</h3>
+        <h3><a href="opsys">&nbsp;The Operating System</a></h3>
         <p><em>Jul 13, 2024 11:41 am - by Ryan</em></p>
         <p>Another thing I want to do with index cards is to break down my work topics into Cards so that when I am in meetings I can grab the card and discuss the topic. Or conversely, when I am in a meeting I can create a new card about a topic that come up.</p>
+        <br />
         <p><strong><a href="opsys">Read More...</a></strong></p>
       </div>
     </div>
     <div class="flip-card-back">
       <pre>
----
-title: (Note:) Index Card CSS
-slug: note-index-card-css
-status: active
-zkid: 2024070712584522
-noteType: Note
-tags:
-  - notes
-  - index-cards
-created: 2024-07-07T12:58
-updated: 2024-07-07T12:58
----
+      </pre>
+    </div>
+  </div>
+</div>
+
+<br />
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front index-card">
+      <div class="card-text">
+        <h3>&nbsp;Welcome to Jekyll</h3>
+        <p><em>Jul 13, 2024 17:59 pm - by Ryan</em></p>
+        <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`...</p>
+        <br />
+        <p><strong><a href="/notes/2024/07/13/welcome-to-jekyll.html">Read More...</a></strong></p>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <pre>
       </pre>
     </div>
   </div>
